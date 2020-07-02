@@ -150,7 +150,25 @@ print(three(8))
 	# help(int) for working with numbers and help(str) for working with Strings.
 
 def four(arg1):
-	return 0
+	winnum = 0
+	a_list = arg1.split()
+	map_list = map(int, a_list)
+	list_of_integers = list(map_list)
+
+	for i in list_of_integers:
+		nmbr = 0
+		addnmbr = 0
+		for nmbr in str(i):
+			nmbr = int(str(i))
+			addnmbr = addnmbr + nmbr
+	if addnmbr > winnum:
+		winnum = addnmbr
+
+
+	return winnum
+
+four("55 72 86")
+
 
 	# <QUESTION 5>
 
