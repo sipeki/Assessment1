@@ -156,18 +156,20 @@ def four(arg1):
 	list_of_integers = list(map_list)
 
 	for i in list_of_integers:
+		nmbr_str = ""
 		nmbr = 0
 		addnmbr = 0
-		for nmbr in str(i):
-			nmbr = int(str(i))
+		for nmbr_str in str(i):
+			nmbr = int(nmbr_str)
 			addnmbr = addnmbr + nmbr
-	if addnmbr > winnum:
-		winnum = addnmbr
+
+		if addnmbr > winnum:
+			winnum = addnmbr
 
 
 	return winnum
 
-four("55 72 86")
+
 
 
 	# <QUESTION 5>
