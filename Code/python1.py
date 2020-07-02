@@ -107,8 +107,25 @@ def two(input):
 	# No Hints for this question
 
 def three(arg1):
-	return "null"
 
+	answer = "null"
+
+	rFizz = arg1 % 3
+	rBuzz = arg1 % 5
+
+	if rFizz == 0:
+		answer = "fizz"
+
+	if rBuzz == 0:
+		if str(answer) == "fizz":
+			answer = str(answer) + "buzz"
+		else:
+			answer = "buzz"
+
+
+	return answer
+
+print(three(8))
 
 	# <QUESTION 4>
 

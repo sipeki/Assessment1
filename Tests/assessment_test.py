@@ -8,12 +8,12 @@ from Code import python1
   # assert python1.one("echo", "print") == "print"
   # assert python1.one("fire","rib") == "fire"
 
-#def test_two():
-#    assert python1.two("bertclivebert") == "clive"
-#    assert python1.two("xxbertfridgebertyy") == "fridge"
-#    assert python1.two("xxBertfridgebERtyy") == "fridge"
-#    assert python1.two("xxbertyy") == ""
-#    assert python1.two("xxbeRTyy") == ""
+def test_two():
+    assert python1.two("bertclivebert") == "clive"
+    assert python1.two("xxbertfridgebertyy") == "fridge"
+    assert python1.two("xxBertfridgebERtyy") == "fridge"
+    assert python1.two("xxbertyy") == ""
+    assert python1.two("xxbeRTyy") == ""
 
 #def test_three():
 #    assert python1.three(3) == "fizz"
