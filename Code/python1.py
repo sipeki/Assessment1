@@ -39,12 +39,14 @@ def one(input1, input2):
 	returnedstring = ""
 	if len(input1)  > len(input2):
 		returnedstring = input1
+	elif len(input1) == len(input2):
+		returnedstring = input1 + " " + input2
 	else:
 		returnedstring = input2
 
 	return returnedstring
 
-print(one("hi","hello"))
+# print(one("hi","hello"))
 
 
 
