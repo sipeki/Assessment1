@@ -73,9 +73,18 @@ def one(input1, input2):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-	return ""
+
+	x = input.lower()
+	x = x.split("bert")
+	if len(x) > 2:
+		x = x[1]
+	else:
+		x = ""
 
 
+	return x
+
+# print(two("xxbertfridgebertyy"))
 
 
 	# <QUESTION 3>
