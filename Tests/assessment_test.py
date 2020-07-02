@@ -30,11 +30,11 @@ def test_four():
     assert python1.four("98 107 415") == 17
 
 #def test_five():
-#    assert python1.five("Jeff,random.py,False,1445") == ["Jeff"]
-#    assert python1.five("Bert,numberGen.py,True,1447,Bert,integers.py,True,1318,Jeff,floats.py,False,1445") == ["Jeff"]
-#    assert python1.five("Bert,boolean.py,False,1447,Bert,conditions.py,False,1318,Jeff,loops.py,False,1445") == ["Bert","Jeff"]
-#    assert python1.five("Bert,prime.py,True,1447,Bert,ISBN.py,False,1318,Jeff,OOP.py,False,1445") == ["Bert","Jeff"]
-#    assert python1.five("Bert,files.py,True,1447,Bert,tests.py,True,1318,Jeff,app.py,True,1445") == []
+ #   assert python1.five("Jeff,random.py,False,1445") == ["Jeff"]
+ #   assert python1.five("Bert,numberGen.py,True,1447,Bert,integers.py,True,1318,Jeff,floats.py,False,1445") == ["Jeff"]
+ #   assert python1.five("Bert,boolean.py,False,1447,Bert,conditions.py,False,1318,Jeff,loops.py,False,1445") == ["Bert","Jeff"]
+ #   assert python1.five("Bert,prime.py,True,1447,Bert,ISBN.py,False,1318,Jeff,OOP.py,False,1445") == ["Bert","Jeff"]
+ #   assert python1.five("Bert,files.py,True,1447,Bert,tests.py,True,1318,Jeff,app.py,True,1445") == []
 
 #def test_six():
 #    assert python1.six("ceiling") == True

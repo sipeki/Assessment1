@@ -151,11 +151,8 @@ print(three(8))
 
 def four(arg1):
 	winnum = 0
-	a_list = arg1.split()
-	map_list = map(int, a_list)
-	list_of_integers = list(map_list)
 
-	for i in list_of_integers:
+	for i in list(map(int, arg1.split())):
 		nmbr_str = ""
 		nmbr = 0
 		addnmbr = 0
